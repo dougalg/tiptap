@@ -1,6 +1,6 @@
 {
   "name": "@timedright/tiptap-commands",
-  "version": "1.13.1",
+  "version": "1.13.2",
   "description": "Commands for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
@@ -20,13 +20,13 @@
     "url": "https://github.com/dougalg/tiptap/issues"
   },
   "dependencies": {
+    "@timedright/tiptap-utils": "^1.9.2",
     "prosemirror-commands": "1.1.4",
     "prosemirror-inputrules": "1.1.2",
     "prosemirror-model": "1.9.1",
     "prosemirror-schema-list": "1.1.2",
     "prosemirror-state": "1.3.3",
     "prosemirror-tables": "1.0.0",
-    "prosemirror-utils": "0.9.6",
-    "@timedright/tiptap-utils": "^1.9.1"
+    "prosemirror-utils": "0.9.6"
   }
 }
