@@ -1,3 +1,5 @@
+import { h } from 'vue';
+
 export default {
 
   props: {
@@ -21,8 +23,8 @@ export default {
     },
   },
 
-  render(createElement) {
-    return createElement('div')
+  render() {
+    return h('div')
   },
 
   beforeDestroy() {

@@ -1,5 +1,5 @@
 {
-  "name": "tiptap-utils",
+  "name": "@timedright/tiptap-utils",
   "version": "1.9.1",
   "description": "Utility functions for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scrumpy/tiptap.git"
+    "url": "git+https://github.com/dougalg/tiptap.git"
   },
   "bugs": {
-    "url": "https://github.com/scrumpy/tiptap/issues"
+    "url": "https://github.com/dougalg/tiptap/issues"
   },
   "dependencies": {
     "prosemirror-model": "1.9.1",

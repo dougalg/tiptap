@@ -49,7 +49,7 @@ export default {
       return null
     }
 
-    return this.$scopedSlots.default({
+    return this.$slots.default({
       focused: this.editor.view.focused,
       focus: this.editor.focus,
       commands: this.editor.commands,

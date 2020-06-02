@@ -4,5 +4,10 @@
   ],
   "npmClient": "yarn",
   "version": "independent",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "registry": "http://staging.timedright.com:8081/repository/timedright-js/"
+    }
+  }
 }
